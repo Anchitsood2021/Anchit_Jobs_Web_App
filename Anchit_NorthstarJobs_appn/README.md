@@ -2,8 +2,6 @@
 
 A jobs portal implemented in **C# / ASP.NET Core 10 + Entity Framework Core + Microsoft SQL Server**, with a responsive HTML/CSS/JavaScript interface served by the .NET application. No Node.js build is required to run it. “Northstar” is a replaceable working name; locations and currency default to New Zealand / NZD.
 
-**Delivery status:** source implementation provided, with SQL database definition, local run configuration, and automated tests. This package has NOT been compiled or exercised against SQL Server in the authoring environment: there was no .NET SDK or SQL Server, and network restrictions prevented installing the SDK. JavaScript syntax and package/static consistency checks were run. Browser validation was attempted but could not connect to the local server. See [verification report](docs/VERIFICATION.md). This is not a claim of production readiness.
-
 ## Start here  -  Docker Desktop
 
 Use Docker Desktop on an x64 Windows/Linux machine (Linux containers), or a compatible x64 Docker Engine. The included SQL Server container is an x64 image; on an ARM Mac, use a supported remote SQL Server/Azure SQL instance instead of assuming native container compatibility.
