@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "Application and launch JSON configurations parse",
+    "Application and test project XML parse",
+    "Both frontend ES modules pass Node syntax checks and resolve local imports",
+    "HTML script, stylesheet and favicon references resolve",
+    "14 SQL tables have primary keys, valid FK/index targets, application uniqueness and score/salary checks (static inspection only)",
+    "Python API integration test passes syntax parsing",
+    "Documentation file links resolve",
+    "Docker Compose and CI YAML parse"
+  ],
+  "passed": 8,
+  "not_run": [
+    ".NET compilation",
+    "SQL Server schema execution",
+    "Unit tests",
+    "API integration tests",
+    "Browser layout/interaction tests"
+  ]
+}
